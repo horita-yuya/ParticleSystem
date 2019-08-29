@@ -13,6 +13,9 @@
 		64DA2DAD2317C84900F86C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64DA2DAC2317C84900F86C04 /* Assets.xcassets */; };
 		64DA2DB02317C84900F86C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DA2DAE2317C84900F86C04 /* LaunchScreen.storyboard */; };
 		64DA2DB82317C88000F86C04 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA2DB72317C88000F86C04 /* ConfettiView.swift */; };
+		64DA2DBB2317C8B100F86C04 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DA2DB92317C8B100F86C04 /* confetti.png */; };
+		64DA2DBC2317C8B100F86C04 /* Confetti.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 64DA2DBA2317C8B100F86C04 /* Confetti.scnp */; };
+		64DA2DBE2317C8DF00F86C04 /* Confetti.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64DA2DBD2317C8DF00F86C04 /* Confetti.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		64DA2DAF2317C84900F86C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64DA2DB12317C84900F86C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64DA2DB72317C88000F86C04 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		64DA2DB92317C8B100F86C04 /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
+		64DA2DBA2317C8B100F86C04 /* Confetti.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Confetti.scnp; sourceTree = "<group>"; };
+		64DA2DBD2317C8DF00F86C04 /* Confetti.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Confetti.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				64DA2DA52317C84800F86C04 /* AppDelegate.swift */,
 				64DA2DA72317C84800F86C04 /* ViewController.swift */,
 				64DA2DB72317C88000F86C04 /* ConfettiView.swift */,
+				64DA2DBD2317C8DF00F86C04 /* Confetti.sks */,
+				64DA2DB92317C8B100F86C04 /* confetti.png */,
+				64DA2DBA2317C8B100F86C04 /* Confetti.scnp */,
 				64DA2DA92317C84800F86C04 /* Main.storyboard */,
 				64DA2DAC2317C84900F86C04 /* Assets.xcassets */,
 				64DA2DAE2317C84900F86C04 /* LaunchScreen.storyboard */,
@@ -126,8 +135,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				64DA2DB02317C84900F86C04 /* LaunchScreen.storyboard in Resources */,
+				64DA2DBE2317C8DF00F86C04 /* Confetti.sks in Resources */,
 				64DA2DAD2317C84900F86C04 /* Assets.xcassets in Resources */,
 				64DA2DAB2317C84800F86C04 /* Main.storyboard in Resources */,
+				64DA2DBC2317C8B100F86C04 /* Confetti.scnp in Resources */,
+				64DA2DBB2317C8B100F86C04 /* confetti.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
