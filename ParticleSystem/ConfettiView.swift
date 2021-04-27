@@ -1,5 +1,4 @@
 import SpriteKit
-import TinyConstraints
 import UIKit
 import SceneKit
 
@@ -31,7 +30,12 @@ private extension ConfettiView {
         scnView.translatesAutoresizingMaskIntoConstraints = false
         scnView.isUserInteractionEnabled = false
         scnView.backgroundColor = .clear
-        scnView.edgesToSuperview()
+        NSLayoutConstraint.activate([
+            scnView.topAnchor.constraint(equalTo: topAnchor),
+            scnView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            scnView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            scnView.trailingAnchor.constraint(equalTo: trailingAnchor)
+        ])
 
         let scene = SCNScene()
         let confettiP = SCNParticleSystem(named: "Confetti.scnp", inDirectory: "")!
